@@ -17,27 +17,33 @@ const Users = database.define("users", {
         type: DataTypes.STRING,
         allowNull: false
     },
+    about: {
+        type: DataTypes.TEXT
+    },
     password: {
         type: DataTypes.STRING,
         allowNull: false
     },
+    career: {
+        type: DataTypes.STRING
+    },
     country: {
-        type: DataTypes.STRING,
-        allowNull: false
+        type: DataTypes.STRING
+    },
+    certification: {
+        type: DataTypes.STRING
     },
     education: {
-        type: DataTypes.STRING,
-        allowNull: false
+        type: DataTypes.STRING
     },
     phone: {
-        type: DataTypes.STRING,
-        allowNull: false
+        type: DataTypes.STRING
     },
     cover: {
-        type: DataTypes.STRING,
+        type: DataTypes.STRING
     },
     avatar: {
-        type: DataTypes.STRING,
+        type: DataTypes.STRING
     },
     refresh_token: {
         type: DataTypes.TEXT
