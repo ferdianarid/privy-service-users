@@ -40,5 +40,11 @@ Base API URL nya http://localhost:PORT/v1/endpoint
 -   Endpoint nya ada di lihat di directory routes/.
 Example : http://localhost:8888/v1/users -> Get all users
 
+### API Response
+<img src="https://raw.githubusercontent.com/ferdianar/privy-service-users/master/response.png?token=GHSAT0AAAAAABMD4XBVYAF7EZV2YXKZ7SB6YSB7UCQ" alt="response" />
+
+### Struktur Table User di Database
+<img src="https://raw.githubusercontent.com/ferdianar/privy-service-users/master/database.png?token=GHSAT0AAAAAABMD4XBVT3LW4N7YCKWJUPJEYSB7V4Q" alt="db" />
+
 ## Thank You in advance....
 Author : Ferdian Ahmad R
