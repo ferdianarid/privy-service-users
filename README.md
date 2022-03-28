@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-## Auth Users Service with Express
-=======
 # Privy Users Services
 Build with Express.js, Sequelize, JsonWebToken and Bcrypt
 
@@ -45,4 +42,3 @@ Example : http://localhost:8888/v1/users -> Get all users
 
 ## Thank You in advance....
 Author : Ferdian Ahmad R
->>>>>>> b5ad8a9 (feature/add preview and upadte models)
