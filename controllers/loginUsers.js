@@ -29,7 +29,7 @@ const loginUsers = async(request, response) => {
 
         // generate refresh token also
         const refreshtoken = jwt.sign({ email, usersId, username }, process.env.REFRESH_TOKEN_SECRET_KEY, {
-            expiresIn: "50s"
+            expiresIn: "1d"
         })
 
         // update null refresh token in db with refresh token before
@@ -47,7 +47,7 @@ const loginUsers = async(request, response) => {
 
         response.json({
             status: response.statusCode,
-            message: "Successfully generated",
+            message: "Successfully",
             accesstoken: accesstoken
         })
 

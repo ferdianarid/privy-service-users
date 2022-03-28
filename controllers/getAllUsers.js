@@ -4,7 +4,7 @@ const getAllUsers = async(request, response) => {
     try {
         const users = await Users.findAll({
             // modification response
-            attributes: ["id", "email", "username", "education", "country"]
+            attributes: ["id", "email", "username", "phone", "career", "education", "country"]
         })
         response.json({
             status: response.statusCode,

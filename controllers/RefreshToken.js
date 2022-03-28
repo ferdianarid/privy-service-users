@@ -33,7 +33,7 @@ const refreshToken = async(request, response) => {
             })
 
             // return access token
-            response.json({ accesstoken })
+            response.json({ data: users, accesstoken })
         })
     } catch (error) {
         console.log(error.message)

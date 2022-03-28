@@ -4,7 +4,7 @@ const Users = require("../models/Users")
 const registerUsers = async(request, response) => {
     try {
         // store request body value and destructure 
-        const { username, email, password, confirmPassword, education, country, phone, cover, avatar } = request.body
+        const { username, email, phone, password, confirmPassword } = request.body
 
         // check password match with confirm password or not 
         if (password !== confirmPassword) return response.status(403).json({ message: "Password Confirmation Failed" })
@@ -19,12 +19,8 @@ const registerUsers = async(request, response) => {
         const users = await Users.create({
             username,
             email,
-            password: hashPassword,
-            education,
-            country,
             phone,
-            cover,
-            avatar
+            password: hashPassword
         })
 
         response.json({
