@@ -1,4 +1,5 @@
 # Privy Users Services
+Ini project test Frontend Engineer di Privy. Backend untuk authenticatino Login, Register, Logout dan OTP Message
 
 <img src="https://images.glints.com/unsafe/glints-dashboard.s3.amazonaws.com/company-logo/2f981f1837f2afbc70ef05415e01d984.jpeg" alt="privy" />
 
